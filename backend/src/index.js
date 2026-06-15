@@ -20,8 +20,8 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-      origin: true,
-    //origin: "https://real-time-chat-application-nu-six.vercel.app",
+      //origin: true,
+      origin: "https://real-time-chat-application-nu-six.vercel.app",
     credentials: true,
   })
 );
